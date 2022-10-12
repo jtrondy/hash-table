@@ -1,0 +1,50 @@
+﻿read text file in line by line
+3 type of animals 
+
+id,amtofmilk,animaltype
+
+readline . split
+
+profitability = incomeFromMilk - costOfVaccination
+
+
+assume text file contains 10 lines
+
+		Superclass:
+   		Animal
+
+		Subclass:
+	Cow			Goat
+Jersey_Cow
+
+calculate profit - override method
+
+var MyFarm = new Animal[10];
+
+if Goat
+{
+	MyFarm[0] = new Goat();
+}
+
+Animal
+virtual public double GetProf()
+{
+
+}
+
+Cow
+Override GetProf()
+.
+.
+.
+Goat
+Override GetProf()
+
+double profit = 0;
+
+foreach (Animal i in MyFarm)
+{
+	profit += GetProf();
+}
+
+
